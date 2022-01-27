@@ -6,10 +6,10 @@ import webbrowser as wb
 
 print("СКРИПТ КАНАЛА: @TREESOFT!")
 print("Версия: 0.1")
-print("Сделанна: @BeanD_TM , @WlDgOdDIW , @UserNotFoundExeption")
+print("Сделанна: @BeanD_TM , @WlDgOdDIW")
 
 
-# wb.open("https://t.me/+BWETTyaJG2I2ZmUy")
+wb.open("https://t.me/+BWETTyaJG2I2ZmUy")
 
 def check_balance():
 	token=input('Введите токен: ')
