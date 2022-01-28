@@ -28,10 +28,10 @@ def withdraw_money():
 	comment_text = input("Введите комментарий: ")
 
 	api = QiwiApi(token=token_target, phone=phone_target)
-	print(api.get_all_profile_info())
+	print(api.get_balance_info())
 
 	api.withdraw_money(account=recepient_phone, amount=int(amount_send), comment=comment_text)
-	print(api.get_all_profile_info())
+	print(api.get_balance_info())
 
 
 def main ():
