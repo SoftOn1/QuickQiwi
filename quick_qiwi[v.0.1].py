@@ -6,7 +6,7 @@ import webbrowser as wb
 
 print("СКРИПТ КАНАЛА: @TREESOFT!")
 print("Версия: 0.1")
-print("Сделанна: @BeanD_TM , @WlDgOdDIW")
+print("Сделанна: @BeanD_TM , Помогал: Захаров Артем")
 
 
 wb.open("https://t.me/+BWETTyaJG2I2ZmUy")
